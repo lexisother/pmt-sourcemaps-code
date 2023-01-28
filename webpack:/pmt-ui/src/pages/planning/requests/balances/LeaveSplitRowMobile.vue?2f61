@@ -1,0 +1,20 @@
+import { render, staticRenderFns } from "./LeaveSplitRowMobile.vue?vue&type=template&id=ce2c8316&scoped=true&"
+import script from "./LeaveSplitRowMobile.vue?vue&type=script&lang=js&"
+export * from "./LeaveSplitRowMobile.vue?vue&type=script&lang=js&"
+import style0 from "./LeaveSplitRowMobile.vue?vue&type=style&index=0&id=ce2c8316&prod&lang=scss&scoped=true&"
+
+
+/* normalize component */
+import normalizer from "!../../../../../node_modules/@vue/vue-loader-v15/lib/runtime/componentNormalizer.js"
+var component = normalizer(
+  script,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  "ce2c8316",
+  null
+  
+)
+
+export default component.exports

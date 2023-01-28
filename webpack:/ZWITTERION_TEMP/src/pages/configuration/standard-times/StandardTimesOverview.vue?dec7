@@ -1,0 +1,20 @@
+import { render, staticRenderFns } from "./StandardTimesOverview.vue?vue&type=template&id=776adf3f&scoped=true&"
+import script from "./StandardTimesOverview.vue?vue&type=script&lang=js&"
+export * from "./StandardTimesOverview.vue?vue&type=script&lang=js&"
+import style0 from "./StandardTimesOverview.vue?vue&type=style&index=0&id=776adf3f&prod&lang=scss&scoped=true&"
+
+
+/* normalize component */
+import normalizer from "!../../../../node_modules/@vue/vue-loader-v15/lib/runtime/componentNormalizer.js"
+var component = normalizer(
+  script,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  "776adf3f",
+  null
+  
+)
+
+export default component.exports

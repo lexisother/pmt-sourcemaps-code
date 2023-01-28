@@ -1,0 +1,20 @@
+import { render, staticRenderFns } from "./Snackbar.vue?vue&type=template&id=0a52217e&scoped=true&"
+import script from "./Snackbar.vue?vue&type=script&lang=js&"
+export * from "./Snackbar.vue?vue&type=script&lang=js&"
+import style0 from "./Snackbar.vue?vue&type=style&index=0&id=0a52217e&prod&scoped=true&lang=css&"
+
+
+/* normalize component */
+import normalizer from "!../../node_modules/@vue/vue-loader-v15/lib/runtime/componentNormalizer.js"
+var component = normalizer(
+  script,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  "0a52217e",
+  null
+  
+)
+
+export default component.exports

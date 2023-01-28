@@ -1,0 +1,15 @@
+(function webpackUniversalModuleDefinition(root, factory) {
+	if(typeof exports === 'object' && typeof module === 'object')
+		module.exports = factory(require("chart.js"));
+	else if(typeof define === 'function' && define.amd)
+		define("VueChartJs", ["chart.js"], factory);
+	else if(typeof exports === 'object')
+		exports["VueChartJs"] = factory(require("chart.js"));
+	else
+		root["VueChartJs"] = factory(root["Chart"]);
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_1__) {
+return 
+
+
+// WEBPACK FOOTER //
+// webpack/universalModuleDefinition

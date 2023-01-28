@@ -1,0 +1,72 @@
+const translations = {
+    recalculateButtonLabel: 'Controleer roosters opnieuw',
+    recalculateConfirm: 'CAO regels zullen worden gecontroleerd voor alle vrijgegeven weken, voor alle winkels. Weet je zeker dat je door wilt gaan?',
+    recalculationHasBeenInitiated: 'Herberekening is geïnitialiseerd',
+    recalculationFailed: 'Herberekening is mislukt',
+    searchBarPlaceholder: 'Zoeken',
+    organization: 'Organisatie',
+    store: 'Winkel',
+    rule: 'regel',
+    rules: 'regels',
+    foundWith: 'gevonden met',
+    showAllRules: 'Toon alle regels',
+    panel: {
+        switchLabels: {
+            environment: 'Actief voor organisatie',
+            store: 'Actief voor winkel',
+        },
+        tableHeaderLabels: {
+            caoId: 'Cao ID',
+            environmentStatus: 'Status',
+            storeStatus: 'Winkel status',
+            type: 'Type',
+            reference: 'Referentie',
+            description: 'Omschrijving',
+            ruleJson: 'Regel JSON',
+            code: 'Code',
+            active: 'Actief',
+        },
+        statusLabels: {
+            ignore: 'Uit',
+            apply: 'Toepassen',
+            warn: 'Toepassen & waarschuwen',
+            obly: 'Toepassen & blokkeren',
+        },
+    },
+    statusHasBeenUpdated: 'De status is aangepast',
+    statusUpdateFailed: 'Het aanpassen van de status is mislukt',
+    dataHaveBeenUpdated: 'De gegevens zijn opgeslagen',
+    dataUpdateFailed: 'Het opslaan van de gegevens is mislukt',
+    changeStatus: 'Status wijzigen',
+    modal: {
+        edit: 'Bewerk cao regel',
+        create: 'Voeg cao regel toe',
+        jsonNotCorrect: 'JSON is niet correct opgesteld',
+    },
+    backendValidationErrors: {
+        jsonSchema: {
+            requiredItemMissing: 'Benodigde property ontbreekt: {property}',
+            propertyNotArray: 'Property is geen array: {property}',
+            eventNotSupported: 'Event wordt niet ondersteund. Property: {property}',
+            notEnum: 'Waarde is geen enum. Property: {property}',
+            notInSchema: 'Waarde wordt niet ondersteund. Property: {property}',
+            notString: 'Waarde is geen string. Property: {property}',
+            notNumber: 'Waarde is geen getal. Property: {property}',
+            notBoolean: 'Waarde moet true of false zijn. Property: {property}',
+            notObject: 'Waarde moet een object zijn. Property: {property}',
+            notArray: 'Waarde moet een array zijn. Property: {property}',
+            min: 'Waarde is kleiner dan de minimum waarde. Property: {property}',
+            max: 'Waarde is groter dan de maximum waarde. Property: {property}',
+        },
+        general: {
+            duplicateRecord: 'Deze referentie bestaat al',
+        },
+        cao: {
+            noWcmg: 'Regel kan niet worden opgeslagen omdat niet alle winkels een looncomponenttoewijzing hebben voor opgegeven code',
+        },
+    },
+    empty: 'Leegmaken',
+    boilerplate: 'Sjabloon',
+}
+
+export default translations

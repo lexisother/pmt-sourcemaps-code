@@ -1,0 +1,20 @@
+import { render, staticRenderFns } from "./ColorSelect.vue?vue&type=template&id=68c40d5c&scoped=true&"
+import script from "./ColorSelect.vue?vue&type=script&lang=js&"
+export * from "./ColorSelect.vue?vue&type=script&lang=js&"
+import style0 from "./ColorSelect.vue?vue&type=style&index=0&id=68c40d5c&prod&lang=scss&scoped=true&"
+
+
+/* normalize component */
+import normalizer from "!../../../../node_modules/@vue/vue-loader-v15/lib/runtime/componentNormalizer.js"
+var component = normalizer(
+  script,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  "68c40d5c",
+  null
+  
+)
+
+export default component.exports

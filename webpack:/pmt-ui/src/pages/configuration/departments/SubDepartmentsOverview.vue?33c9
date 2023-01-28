@@ -1,0 +1,20 @@
+import { render, staticRenderFns } from "./SubDepartmentsOverview.vue?vue&type=template&id=88dc5994&scoped=true&"
+import script from "./SubDepartmentsOverview.vue?vue&type=script&lang=js&"
+export * from "./SubDepartmentsOverview.vue?vue&type=script&lang=js&"
+import style0 from "./SubDepartmentsOverview.vue?vue&type=style&index=0&id=88dc5994&prod&lang=scss&scoped=true&"
+
+
+/* normalize component */
+import normalizer from "!../../../../node_modules/@vue/vue-loader-v15/lib/runtime/componentNormalizer.js"
+var component = normalizer(
+  script,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  "88dc5994",
+  null
+  
+)
+
+export default component.exports

@@ -1,0 +1,19 @@
+import { render, staticRenderFns } from "./PrivacyFooter.vue?vue&type=template&id=f4570abe&scoped=true&"
+var script = {}
+import style0 from "./PrivacyFooter.vue?vue&type=style&index=0&id=f4570abe&prod&lang=scss&scoped=true&"
+
+
+/* normalize component */
+import normalizer from "!../../node_modules/@vue/vue-loader-v15/lib/runtime/componentNormalizer.js"
+var component = normalizer(
+  script,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  "f4570abe",
+  null
+  
+)
+
+export default component.exports

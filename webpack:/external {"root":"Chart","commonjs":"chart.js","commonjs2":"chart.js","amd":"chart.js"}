@@ -1,0 +1,8 @@
+module.exports = __WEBPACK_EXTERNAL_MODULE_1__;
+
+
+//////////////////
+// WEBPACK FOOTER
+// external {"root":"Chart","commonjs":"chart.js","commonjs2":"chart.js","amd":"chart.js"}
+// module id = 1
+// module chunks = 0

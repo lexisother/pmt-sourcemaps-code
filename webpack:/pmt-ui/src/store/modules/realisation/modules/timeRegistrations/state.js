@@ -1,0 +1,22 @@
+const state = {
+    timeRegistrations: [],
+    untouchedTimeRegistrations: [],
+    timeRegistrationsDate: null,
+    timeRegistrationsLoading: true,
+    groupOn: [],
+    sortOn: 'firstName',
+    sortAscending: true,
+    searchString: null,
+    accountId: null,
+    realisationIndex: null,
+    initialRealisation: {},
+    creating: false,
+    accessibleDepartments: [],
+    weekStatuses: [],
+    globalTimeRegistrationsCardState: 'collapsed',
+    editInModal: false,
+    expandedEmployeeCards: [],
+    scrollToEmployeeCardId: null,
+    weekStores: {},
+}
+export default state

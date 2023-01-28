@@ -1,0 +1,41 @@
+const translations = {
+    titles: {
+        new: 'Aanvraag details',
+    },
+    weeksetStartDateChanged: 'De startdatum {0} ligt in een week waarvan de roosters al verstuurd zijn, daarom is de startdatum aangepast naar {1}',
+    editingNotAllowed: 'Je kan een {0} weekset niet bijwerken',
+    newWeeksetTitle: 'Weekset voor week {0}, {1}',
+    sections: {
+        changes: 'Veranderingen',
+        deleted: 'Verwijderd',
+        modified: 'Bijgewerkt',
+        created: 'Gemaakt',
+        imported: 'Geïmporteerd',
+        undo: 'Ongedaan maken',
+        edit: 'Bewerk',
+        cancel: 'Annuleren',
+        save: 'Opslaan',
+        saveApprove: 'Opslaan en Goedkeuren',
+        createApprove: 'Maak en Goedkeuren',
+        yes: 'Ja',
+        no: 'Nee',
+        view: 'Bekijken',
+        viewTooltip: 'Bekijk de weekset die je wilt overschrijven',
+        unsavedChanges: 'U heeft niet-opgeslagen wijzigingen. ',
+        closeAnyway: 'Wilt u toch annuleren?',
+        saved: 'Weekset succesvol opgeslagen',
+        emptyWeeksetDetected: 'Je hebt geen beschikbaarheid opgegeven. Weet je zeker dat je een lege aanvraag wilt indienen?',
+        alreadyApprovedWeeksetDetected: 'De week waarvoor je wilt opslaan heeft al een goedgekeurde weekset. Wil je die aanvraag overschrijven?',
+        saveInFinalizedWeek: 'Je hebt voor een startdatum gekozen waarvoor al roosters zijn verzonden, als je het verzoek goedkeurd kunnen er overlappingen ontstaan met de roosters. Weet je zeker dat je de aanvraag wil goedkeuren?',
+        weekFinalizedMessage: 'De startdatum van de wekelijkse beschikbaarheid ligt in een week waarvoor het rooster al verstuurd is. Goedkeuren kan gevolgen hebben voor het rooster van die week. Bewerk de wekelijkse beschikbaarheid om de startdatum aan te passen',
+        existingPendingSetOnDate: 'Je hebt al een openstaand verzoek op deze datum. Wijzig de datum of bewerk dat verzoek.',
+        continue: 'Vervolgen',
+    },
+    checkingWeeksetDetails: 'Weekset details controleren',
+    emptyWeekset: {
+        label: 'Geen beschikbaarheden',
+        body: 'Er zijn geen beschikbaarheden toegevoegd voor deze weekset. Gebruik het grid om je beschikbaarheden toe te voegen.',
+    },
+}
+
+export default translations

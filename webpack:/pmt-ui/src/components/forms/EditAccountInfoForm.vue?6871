@@ -1,0 +1,20 @@
+import { render, staticRenderFns } from "./EditAccountInfoForm.vue?vue&type=template&id=e2a50720&scoped=true&"
+import script from "./EditAccountInfoForm.vue?vue&type=script&lang=js&"
+export * from "./EditAccountInfoForm.vue?vue&type=script&lang=js&"
+import style0 from "./EditAccountInfoForm.vue?vue&type=style&index=0&id=e2a50720&prod&scoped=true&lang=scss&"
+
+
+/* normalize component */
+import normalizer from "!../../../node_modules/@vue/vue-loader-v15/lib/runtime/componentNormalizer.js"
+var component = normalizer(
+  script,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  "e2a50720",
+  null
+  
+)
+
+export default component.exports

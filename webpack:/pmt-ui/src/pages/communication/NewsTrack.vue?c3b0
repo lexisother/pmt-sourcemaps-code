@@ -1,0 +1,20 @@
+import { render, staticRenderFns } from "./NewsTrack.vue?vue&type=template&id=e1a8fb38&scoped=true&"
+import script from "./NewsTrack.vue?vue&type=script&lang=js&"
+export * from "./NewsTrack.vue?vue&type=script&lang=js&"
+import style0 from "./NewsTrack.vue?vue&type=style&index=0&id=e1a8fb38&prod&lang=scss&scoped=true&"
+
+
+/* normalize component */
+import normalizer from "!../../../node_modules/@vue/vue-loader-v15/lib/runtime/componentNormalizer.js"
+var component = normalizer(
+  script,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  "e1a8fb38",
+  null
+  
+)
+
+export default component.exports

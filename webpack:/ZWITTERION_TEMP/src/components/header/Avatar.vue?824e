@@ -1,0 +1,20 @@
+import { render, staticRenderFns } from "./Avatar.vue?vue&type=template&id=7b70e21e&scoped=true&"
+import script from "./Avatar.vue?vue&type=script&lang=js&"
+export * from "./Avatar.vue?vue&type=script&lang=js&"
+import style0 from "./Avatar.vue?vue&type=style&index=0&id=7b70e21e&prod&lang=scss&scoped=true&"
+
+
+/* normalize component */
+import normalizer from "!../../../node_modules/@vue/vue-loader-v15/lib/runtime/componentNormalizer.js"
+var component = normalizer(
+  script,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  "7b70e21e",
+  null
+  
+)
+
+export default component.exports

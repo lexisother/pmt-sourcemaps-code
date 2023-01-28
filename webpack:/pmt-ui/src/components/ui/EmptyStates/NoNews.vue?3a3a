@@ -1,0 +1,20 @@
+import { render, staticRenderFns } from "./NoNews.vue?vue&type=template&id=21d0f5d0&scoped=true&"
+import script from "./NoNews.vue?vue&type=script&lang=js&"
+export * from "./NoNews.vue?vue&type=script&lang=js&"
+import style0 from "./NoNews.vue?vue&type=style&index=0&id=21d0f5d0&prod&lang=scss&scoped=true&"
+
+
+/* normalize component */
+import normalizer from "!../../../../node_modules/@vue/vue-loader-v15/lib/runtime/componentNormalizer.js"
+var component = normalizer(
+  script,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  "21d0f5d0",
+  null
+  
+)
+
+export default component.exports

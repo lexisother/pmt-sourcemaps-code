@@ -1,0 +1,20 @@
+import { render, staticRenderFns } from "./RadioGroup.vue?vue&type=template&id=15f2711c&scoped=true&"
+import script from "./RadioGroup.vue?vue&type=script&lang=js&"
+export * from "./RadioGroup.vue?vue&type=script&lang=js&"
+import style0 from "./RadioGroup.vue?vue&type=style&index=0&id=15f2711c&prod&lang=scss&scoped=true&"
+
+
+/* normalize component */
+import normalizer from "!../../../../node_modules/@vue/vue-loader-v15/lib/runtime/componentNormalizer.js"
+var component = normalizer(
+  script,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  "15f2711c",
+  null
+  
+)
+
+export default component.exports

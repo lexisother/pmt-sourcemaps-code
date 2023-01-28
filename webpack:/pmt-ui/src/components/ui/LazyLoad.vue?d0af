@@ -1,0 +1,19 @@
+import { render, staticRenderFns } from "./LazyLoad.vue?vue&type=template&id=4939f53c&"
+import script from "./LazyLoad.vue?vue&type=script&setup=true&lang=js&"
+export * from "./LazyLoad.vue?vue&type=script&setup=true&lang=js&"
+
+
+/* normalize component */
+import normalizer from "!../../../node_modules/@vue/vue-loader-v15/lib/runtime/componentNormalizer.js"
+var component = normalizer(
+  script,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+export default component.exports

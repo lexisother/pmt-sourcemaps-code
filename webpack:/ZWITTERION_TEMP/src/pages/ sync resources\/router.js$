@@ -1,0 +1,36 @@
+var map = {
+	"./communication/resources/router.js": 53584,
+	"./configuration/resources/router.js": 64276,
+	"./planning/availability/resources/router.js": 23572,
+	"./planning/leave-and-absence/resources/router.js": 72713,
+	"./planning/requests/resources/router.js": 54015,
+	"./planning/schedule/resources/router.js": 28712,
+	"./planning/scheduling/resources/router.js": 86464,
+	"./planning/steerInformation/resources/router.js": 4027,
+	"./planning/workload/resources/router.js": 13997,
+	"./realisation/check-hours/resources/router.js": 2792,
+	"./realisation/time-registrations/resources/router.js": 45040,
+	"./realisation/timer/resources/router.js": 38267,
+	"./user/assessments/resources/router.js": 98317,
+	"./user/resources/router.js": 81644
+};
+
+
+function webpackContext(req) {
+	var id = webpackContextResolve(req);
+	return __webpack_require__(id);
+}
+function webpackContextResolve(req) {
+	if(!__webpack_require__.o(map, req)) {
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	}
+	return map[req];
+}
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = 62704;

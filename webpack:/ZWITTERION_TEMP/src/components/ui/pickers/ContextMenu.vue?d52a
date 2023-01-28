@@ -1,0 +1,21 @@
+import { render, staticRenderFns } from "./ContextMenu.vue?vue&type=template&id=2b5aa4b2&scoped=true&"
+import script from "./ContextMenu.vue?vue&type=script&lang=js&"
+export * from "./ContextMenu.vue?vue&type=script&lang=js&"
+import style0 from "./ContextMenu.vue?vue&type=style&index=0&id=2b5aa4b2&prod&lang=scss&scoped=true&"
+import style1 from "./ContextMenu.vue?vue&type=style&index=1&id=2b5aa4b2&prod&lang=scss&"
+
+
+/* normalize component */
+import normalizer from "!../../../../node_modules/@vue/vue-loader-v15/lib/runtime/componentNormalizer.js"
+var component = normalizer(
+  script,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  "2b5aa4b2",
+  null
+  
+)
+
+export default component.exports

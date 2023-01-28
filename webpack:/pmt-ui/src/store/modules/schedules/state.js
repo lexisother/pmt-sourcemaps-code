@@ -1,0 +1,21 @@
+const state = {
+    payrollDetailsTotals: {},
+    payrollDetails: [],
+    weekSchedule: {},
+    dayColleaguesSchedules: {},
+    dayRemarks: [],
+    weekDayRemarks: {},
+    allWeekSchedules: [],
+    weekBalances: {},
+    indirectHours: {},
+    scheduleEmployeeId: 0,
+    balanceHistory: [],
+    employeeWeekFinal: {},
+    employeeWeekStatus: {},
+    weekIndirectHours: {},
+    indirectTaskTypes: [],
+    scheduleForPeriod: [],
+    currentAccountBalances: null,
+    endOfYearAccountBalances: null,
+}
+export default state

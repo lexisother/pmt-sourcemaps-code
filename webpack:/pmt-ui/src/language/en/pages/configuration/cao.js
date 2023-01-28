@@ -1,0 +1,72 @@
+const translations = {
+    recalculateButtonLabel: 'Recalculate schedules',
+    recalculateConfirm: 'CLA rules will be checked for all released weeks, for all stores. Are you sure you want to continue?',
+    recalculationHasBeenInitiated: 'Recalculation has been initiated',
+    recalculationFailed: 'Recalculation failed',
+    searchBarPlaceholder: 'Search',
+    organization: 'Organisation',
+    store: 'Store',
+    rule: 'rule',
+    rules: 'rules',
+    foundWith: 'found with',
+    showAllRules: 'Show all rules',
+    panel: {
+        switchLabels: {
+            environment: 'Active for organisation',
+            store: 'Active for store',
+        },
+        tableHeaderLabels: {
+            caoId: 'Cao ID',
+            environmentStatus: 'Status',
+            storeStatus: 'Store status',
+            type: 'Type',
+            reference: 'Reference',
+            description: 'Description',
+            ruleJson: 'Rule JSON',
+            code: 'Code',
+            active: 'Active',
+        },
+        statusLabels: {
+            ignore: 'Off',
+            apply: 'Apply',
+            warn: 'Apply & warn',
+            obly: 'Apply & block',
+        },
+    },
+    statusHasBeenUpdated: 'Status has been updated',
+    statusUpdateFailed: 'Status update failed',
+    dataHaveBeenUpdated: 'Data has been saved',
+    dataUpdateFailed: 'Data saving failed',
+    changeStatus: 'Change status',
+    modal: {
+        edit: 'Edit cla rule',
+        create: 'Create cla rule',
+        jsonNotCorrect: 'JSON is not formatted correctly',
+    },
+    backendValidationErrors: {
+        jsonSchema: {
+            requiredItemMissing: 'Required property is missing: {property}',
+            propertyNotArray: 'Property should be an array: {property}',
+            eventNotSupported: 'Event should be in event schema. Property: {property}',
+            notEnum: 'Value should be an enum. Property: {property}',
+            notInSchema: 'Value should be in schema. Property: {property}',
+            notString: 'Value should be a string. Property: {property}',
+            notNumber: 'Value should be a number. Property: {property}',
+            notBoolean: 'Value should be true or false. Property: {property}',
+            notObject: 'Value should be an object. Property: {property}',
+            notArray: 'Value should be an array. Property: {property}',
+            min: 'Value should be more than minimum. Property: {property}',
+            max: 'Value should not exceed maximum. Property: {property}',
+        },
+        general: {
+            duplicateRecord: 'This reference already exists',
+        },
+        cao: {
+            noWcmg: 'Rule cannot be saved because not all stores have a wagecomponent mapping for provided code',
+        },
+    },
+    empty: 'Empty',
+    boilerplate: 'Boilerplate',
+}
+
+export default translations

@@ -1,0 +1,22 @@
+const state = {
+    rdoRequests: [],
+    yearRequests: {},
+    allEmployeesRdoRequests: {},
+    loadRdoRequests: false,
+    rdoRequestsWithinPeriod: [],
+    rdoRequestsForEmployee: { accountId: null, requests: [] },
+    searchString: null,
+    requestTypes: [],
+    leaveBalance: { indicative: null, definitive: null },
+    loadLeaveBalance: false,
+    lastClosedWeek: null,
+    employee: null,
+    contract: null,
+    reloadRdoRequests: false,
+    rdoListViewSorting: { by: ['firstName'], desc: [false] },
+    rdoTimelineViewSorting: { by: ['firstName'], desc: [false] },
+    isSavingRdo: false,
+    groupOn: [],
+    viewType: 'list',
+}
+export default state

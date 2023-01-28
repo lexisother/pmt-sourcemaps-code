@@ -1,0 +1,20 @@
+import { render, staticRenderFns } from "./WeekSchedulePrint.vue?vue&type=template&id=55d8156e&scoped=true&"
+import script from "./WeekSchedulePrint.vue?vue&type=script&lang=js&"
+export * from "./WeekSchedulePrint.vue?vue&type=script&lang=js&"
+import style0 from "./WeekSchedulePrint.vue?vue&type=style&index=0&id=55d8156e&prod&lang=scss&scoped=true&"
+
+
+/* normalize component */
+import normalizer from "!../../../../node_modules/@vue/vue-loader-v15/lib/runtime/componentNormalizer.js"
+var component = normalizer(
+  script,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  "55d8156e",
+  null
+  
+)
+
+export default component.exports

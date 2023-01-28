@@ -1,0 +1,20 @@
+import { render, staticRenderFns } from "./SelectStorePage.vue?vue&type=template&id=1622fae9&"
+import script from "./SelectStorePage.vue?vue&type=script&lang=js&"
+export * from "./SelectStorePage.vue?vue&type=script&lang=js&"
+import style0 from "./SelectStorePage.vue?vue&type=style&index=0&id=1622fae9&prod&lang=scss&"
+
+
+/* normalize component */
+import normalizer from "!../../node_modules/@vue/vue-loader-v15/lib/runtime/componentNormalizer.js"
+var component = normalizer(
+  script,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+export default component.exports

@@ -1,0 +1,20 @@
+import { render, staticRenderFns } from "./PTextArea.vue?vue&type=template&id=278fc36b&scoped=true&"
+import script from "./PTextArea.vue?vue&type=script&lang=js&"
+export * from "./PTextArea.vue?vue&type=script&lang=js&"
+import style0 from "./PTextArea.vue?vue&type=style&index=0&id=278fc36b&prod&lang=scss&scoped=true&"
+
+
+/* normalize component */
+import normalizer from "!../../../../node_modules/@vue/vue-loader-v15/lib/runtime/componentNormalizer.js"
+var component = normalizer(
+  script,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  "278fc36b",
+  null
+  
+)
+
+export default component.exports

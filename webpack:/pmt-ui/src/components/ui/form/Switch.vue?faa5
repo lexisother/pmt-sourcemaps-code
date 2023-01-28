@@ -1,0 +1,20 @@
+import { render, staticRenderFns } from "./Switch.vue?vue&type=template&id=179f71d2&"
+import script from "./Switch.vue?vue&type=script&lang=js&"
+export * from "./Switch.vue?vue&type=script&lang=js&"
+import style0 from "./Switch.vue?vue&type=style&index=0&id=179f71d2&prod&lang=scss&"
+
+
+/* normalize component */
+import normalizer from "!../../../../node_modules/@vue/vue-loader-v15/lib/runtime/componentNormalizer.js"
+var component = normalizer(
+  script,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+export default component.exports

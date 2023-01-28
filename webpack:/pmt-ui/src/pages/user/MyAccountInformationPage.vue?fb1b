@@ -1,0 +1,21 @@
+import { render, staticRenderFns } from "./MyAccountInformationPage.vue?vue&type=template&id=0f2d2a5b&scoped=true&"
+import script from "./MyAccountInformationPage.vue?vue&type=script&lang=js&"
+export * from "./MyAccountInformationPage.vue?vue&type=script&lang=js&"
+import style0 from "./MyAccountInformationPage.vue?vue&type=style&index=0&id=0f2d2a5b&prod&lang=scss&scoped=true&"
+import style1 from "./MyAccountInformationPage.vue?vue&type=style&index=1&id=0f2d2a5b&prod&lang=scss&"
+
+
+/* normalize component */
+import normalizer from "!../../../node_modules/@vue/vue-loader-v15/lib/runtime/componentNormalizer.js"
+var component = normalizer(
+  script,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  "0f2d2a5b",
+  null
+  
+)
+
+export default component.exports

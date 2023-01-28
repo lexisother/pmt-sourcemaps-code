@@ -1,0 +1,18 @@
+import { render, staticRenderFns } from "./RouterComponent.vue?vue&type=template&id=8926f7f6&"
+var script = {}
+
+
+/* normalize component */
+import normalizer from "!../../node_modules/@vue/vue-loader-v15/lib/runtime/componentNormalizer.js"
+var component = normalizer(
+  script,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+export default component.exports

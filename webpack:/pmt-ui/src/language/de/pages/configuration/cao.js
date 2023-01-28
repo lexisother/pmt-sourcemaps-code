@@ -1,0 +1,72 @@
+const translations = {
+    recalculateButtonLabel: 'Zeitpläne erneut überprüfen',
+    recalculateConfirm: 'Die Tarifvertragsregeln werden für alle freigegebenen Wochen für alle Geschäfte überprüft. Bist du dir sicher, dass du weitermachen willst?',
+    recalculationHasBeenInitiated: 'Neuberechnung wurde eingeleitet',
+    recalculationFailed: 'Neuberechnung fehlgeschlagen',
+    searchBarPlaceholder: 'Suchen',
+    organization: 'Organisation',
+    store: 'Geschäft',
+    rule: 'Regel',
+    rules: 'Regeln',
+    foundWith: 'gefunden mit',
+    showAllRules: 'Zeige alle Regeln',
+    panel: {
+        switchLabels: {
+            environment: 'Aktiv für Organisation',
+            store: 'Aktiv für Geschäft',
+        },
+        tableHeaderLabels: {
+            caoId: 'Cao ID',
+            environmentStatus: 'Status',
+            storeStatus: 'Geschäft status',
+            type: 'Art',
+            reference: 'Referenz',
+            description: 'Beschreibung',
+            ruleJson: 'Regel JSON',
+            code: 'Code',
+            active: 'Aktiv',
+        },
+        statusLabels: {
+            ignore: 'Aus',
+            apply: 'Bewerben',
+            warn: 'Bewerben & warnen',
+            obly: 'Bewerben & blockieren',
+        },
+    },
+    statusHasBeenUpdated: 'Status wurde angepasst',
+    statusUpdateFailed: 'Die Statusaktualisierung ist fehlgeschlagen',
+    dataHaveBeenUpdated: 'Daten wurden gespeichert',
+    dataUpdateFailed: 'Datenspeicherung fehlgeschlagen',
+    changeStatus: 'Status ändern',
+    modal: {
+        edit: 'Tarifvertragsregel bearbeiten',
+        create: 'Tarifvertragsregel schaffen',
+        jsonNotCorrect: 'JSON ist nicht richtig formatiert',
+    },
+    backendValidationErrors: {
+        jsonSchema: {
+            requiredItemMissing: 'Erforderliche property fehlt: {property}',
+            propertyNotArray: 'Property ist kein Array: {property}',
+            eventNotSupported: 'Event befindet sich nicht im Eventschema. Property: {property}',
+            notEnum: 'Wert ist nicht enum. Property: {property}',
+            notInSchema: 'Wert ist nicht im Schema. Property: {property}',
+            notString: 'Wert ist keine String. Property: {property}',
+            notNumber: 'Wert ist keine Zahl. Property: {property}',
+            notBoolean: 'Wert muss wahr oder falsch sein. Property: {property}',
+            notObject: 'Wert ist kein Objekt. Property: {property}',
+            notArray: 'Wert ist kein Array. Property: {property}',
+            min: 'Wert ist kleiner als das Minimum. Property: {property}',
+            max: 'Der Wert ist größer als das Maximum. Property: {property}',
+        },
+        general: {
+            duplicateRecord: 'Diese Referenz existiert bereits',
+        },
+        cao: {
+            noWcmg: 'Regel kann nicht gespeichert werden, da nicht alle Filialen eine Lohnkomponentenzuordnung für den bereitgestellten Code haben',
+        },
+    },
+    empty: 'Leeren',
+    boilerplate: 'Schablone',
+}
+
+export default translations

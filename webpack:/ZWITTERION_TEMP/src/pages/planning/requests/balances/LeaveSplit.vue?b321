@@ -1,0 +1,20 @@
+import { render, staticRenderFns } from "./LeaveSplit.vue?vue&type=template&id=33bae4f7&scoped=true&"
+import script from "./LeaveSplit.vue?vue&type=script&lang=js&"
+export * from "./LeaveSplit.vue?vue&type=script&lang=js&"
+import style0 from "./LeaveSplit.vue?vue&type=style&index=0&id=33bae4f7&prod&lang=scss&scoped=true&"
+
+
+/* normalize component */
+import normalizer from "!../../../../../node_modules/@vue/vue-loader-v15/lib/runtime/componentNormalizer.js"
+var component = normalizer(
+  script,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  "33bae4f7",
+  null
+  
+)
+
+export default component.exports

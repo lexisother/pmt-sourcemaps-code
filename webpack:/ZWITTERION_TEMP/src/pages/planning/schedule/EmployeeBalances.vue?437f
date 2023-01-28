@@ -1,0 +1,20 @@
+import { render, staticRenderFns } from "./EmployeeBalances.vue?vue&type=template&id=1235ebf0&"
+import script from "./EmployeeBalances.vue?vue&type=script&lang=js&"
+export * from "./EmployeeBalances.vue?vue&type=script&lang=js&"
+import style0 from "./EmployeeBalances.vue?vue&type=style&index=0&id=1235ebf0&prod&lang=scss&"
+
+
+/* normalize component */
+import normalizer from "!../../../../node_modules/@vue/vue-loader-v15/lib/runtime/componentNormalizer.js"
+var component = normalizer(
+  script,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+export default component.exports

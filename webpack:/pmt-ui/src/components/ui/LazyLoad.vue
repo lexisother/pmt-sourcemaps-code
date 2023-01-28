@@ -1,0 +1,5 @@
+var render = function render(){var _vm=this,_c=_vm._self._c,_setup=_vm._self._setupProxy;return _c(_vm.tag,{ref:"targetEl",tag:"component",style:(`min-height:${_setup.fixedMinHeight ? _setup.fixedMinHeight : _vm.minHeight}px`),on:{"mousedown":function($event){return _vm.$emit('mousedown', $event)},"mousemove":function($event){return _vm.$emit('mousemove', $event)},"mouseup":function($event){return _vm.$emit('mouseup', $event)},"click":function($event){return _vm.$emit('click', $event)},"keyup":function($event){if(!$event.type.indexOf('key')&&_vm._k($event.keyCode,"tab",9,$event.key,"Tab"))return null;return _vm.$emit('tab', $event)},"contextmenu":function($event){return _vm.$emit('contextmenu', $event)},"mouseenter":function($event){return _vm.$emit('mouseenter', $event)},"mouseleave":function($event){return _vm.$emit('mouseleave', $event)},"mouseover":function($event){return _vm.$emit('mouseover', $event)}}},[(_setup.shouldRender || !_vm.lazy)?_vm._t("default"):_vm._t("placeholder")],2)
+}
+var staticRenderFns = []
+
+export { render, staticRenderFns }

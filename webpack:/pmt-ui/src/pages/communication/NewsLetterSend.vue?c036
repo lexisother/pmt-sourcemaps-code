@@ -1,0 +1,20 @@
+import { render, staticRenderFns } from "./NewsLetterSend.vue?vue&type=template&id=eb52ffd0&scoped=true&"
+import script from "./NewsLetterSend.vue?vue&type=script&lang=js&"
+export * from "./NewsLetterSend.vue?vue&type=script&lang=js&"
+import style0 from "./NewsLetterSend.vue?vue&type=style&index=0&id=eb52ffd0&prod&lang=scss&scoped=true&"
+
+
+/* normalize component */
+import normalizer from "!../../../node_modules/@vue/vue-loader-v15/lib/runtime/componentNormalizer.js"
+var component = normalizer(
+  script,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  "eb52ffd0",
+  null
+  
+)
+
+export default component.exports

@@ -1,0 +1,41 @@
+const translations = {
+    titles: {
+        new: 'Request details',
+    },
+    weeksetStartDateChanged: 'The startdate {0} is in a week of which schedules have already been sent, therefore the date is changed to {1}',
+    editingNotAllowed: 'You cannot edit {0} weeksets',
+    newWeeksetTitle: 'Weekset for week {0}, {1}',
+    sections: {
+        changes: 'Changes',
+        deleted: 'Deleted',
+        modified: 'Modified',
+        created: 'Created',
+        imported: 'Imported',
+        undo: 'Undo',
+        edit: 'Edit',
+        cancel: 'Cancel',
+        save: 'Save',
+        saveApprove: 'Save and Approve',
+        createApprove: 'Maak en Goedkeuren',
+        yes: 'Yes',
+        no: 'No',
+        view: 'View',
+        viewTooltip: 'View the weekset you are about to override',
+        unsavedChanges: 'You have unsaved changes. ',
+        closeAnyway: 'Do you want to cancel anyway?',
+        saved: 'Weekset successfully saved.',
+        emptyWeeksetDetected: 'You did not enter any availabilty. Are you sure you want to submit an empty set?',
+        alreadyApprovedWeeksetDetected: 'The week you are trying to save already has an approved weekset. Do you want to overwrite that set?',
+        saveInFinalizedWeek: 'You have chosen a startdate for which schedules have already been sent, which could lead to overlap with already existing schedules. Are you sure you want to do this?',
+        weekFinalizedMessage: 'The startdate of the weekly availability is in a week for which the schedule has been sent. Approving can have an impact on the schedule for that week. Edit the weekset to change the start date.',
+        existingPendingSetOnDate: 'You have another pending request on this date. Change the date or edit that weekset.',
+        continue: 'Continue',
+    },
+    checkingWeeksetDetails: 'Checking weekset details',
+    emptyWeekset: {
+        label: 'No availabilities',
+        body: 'No availabilities are added for this weekset. Use the timegrid to add your availabilities.',
+    },
+}
+
+export default translations
